@@ -1,0 +1,73 @@
+body {
+  background-color:pink;
+  font-family: Arial black;
+}
+.container {
+  position:relative;
+  width:600;
+}
+.TV {
+  top:8%;
+  left:30%;
+  transform: translateX(-50px);
+  position:absolute;
+  z-index：-1；
+}
+#video {
+  z-index:1;
+  margin-top:21%;
+  margin-left:31%;
+}
+.link {
+  position:absolute;
+  margin-left:32%;
+  margin-top:5%;
+}
+.text {
+  margin-top:-20%;
+  margin-left:5%;
+  position:relative;
+  padding-top:-200px;
+}
+.home {
+  bottom:0;
+  right:0;
+  position:absolute;
+}
+a:link {
+  color: black;
+  cursor: url("https://cdn.glitch.com/9ec7c44a-4bb7-48dc-8c35-7314cb1d563f%2Fcursor.svg?v=1603336085791"), auto;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+.sailormoon {
+  position: fixed;
+  -webkit-animation: image 5s linear 2s infinite alternate; 
+  animation: image 5s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes image {
+  0%   {right:20px; bottom:-200px;}
+  25%  {right:20px; bottom:-200px;}
+  50%  {right:20px; bottom:-20px;}
+  75%  {right:20px; bottom:-20px;}
+  100% {right:20px; bottom:-200px;}
+}
+
+@keyframes image {
+  0%   {right:20px; bottom:-200px;}
+  25%  {right:20px; bottom:-200px;}
+  50%  {right:20px; bottom:-20px;}
+  75%  {right:20px; bottom:-20px;}
+  100% {right:20px; bottom:-200px;}
+}
