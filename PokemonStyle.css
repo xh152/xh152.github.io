@@ -1,0 +1,71 @@
+body {
+  background-color:gold;
+  font-family: Arial black;
+}
+.container {
+  position:relative;
+  width:800;
+}
+.TV {
+  top:8%;
+  left:30%;
+  transform: translateX(-50px);
+  position:absolute;
+  z-index：-1；
+}
+#video {
+  z-index:1;
+  margin-top:21%;
+  margin-left:31%;
+}
+.link {
+  position:absolute;
+  margin-left:32%;
+  margin-top:5%;
+}
+.text {
+  margin-top:-20%;
+  margin-left:5%;
+  position:relative;
+  padding-top:-200px;
+}
+.home {
+  bottom:0;
+  right:0;
+  position:fixed;
+}
+a:link {
+  color: black;
+  cursor: url("https://cdn.glitch.com/9ec7c44a-4bb7-48dc-8c35-7314cb1d563f%2Fcursor.svg?v=1603336085791"), auto;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+a:active {
+  color: red;
+}
+.pokemonball {
+  position: fixed;
+  bottom:0;
+  right:70px;
+  -webkit-animation: image 5s linear 2s infinite alternate; 
+  animation: rotation 5s linear 0s infinite alternate;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.rotate {
+  animation: rotation 2s infinite linear;
+}

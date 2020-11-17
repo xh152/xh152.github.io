@@ -1,0 +1,112 @@
+body {
+/*   background-color:red; */
+/*   background: rgb(221,141,145);
+background: radial-gradient(circle, rgba(221,141,145,1) 0%, rgba(255,0,0,1) 100%); */
+  background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(241,65,74,1) 100%);
+  font-family: Arial black;
+  height:100vh;
+}
+
+.main-content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.container {
+  position:relative;
+  width:800px;
+  height:800px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+/*   border: solid 4px blue; */
+}
+
+/* .TV {
+  top:50%;
+  left:50%;
+  transform: translateX(-50px);
+  position:absolute;
+  z-index：-1;
+
+} */
+
+#video-tv{
+  width:600px;
+  height:800px;
+  position:absolute;
+  z-index：-1;
+}
+
+#video {
+  z-index:1;
+  position:relative;
+  width:320px;
+  height:180px;
+  transform: translateY(100px);
+
+/*   margin-top:21%;
+  margin-left:31%; */
+}
+
+
+
+.link {
+/*   position:absolute;
+  margin-left:32%;
+  margin-top:5%; */
+}
+.text {
+/*   margin-top:-20%;
+  margin-left:5%;
+  position:relative;
+  padding-top:-200px; */
+}
+.home {
+  margin:15px;
+  bottom:0;
+  right:0;
+  position:fixed;
+}
+a:link {
+  color: green;
+  cursor: url("https://cdn.glitch.com/9ec7c44a-4bb7-48dc-8c35-7314cb1d563f%2Fcursor.svg?v=1603336085791"), auto;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: orange;
+}
+.conan {
+  position: fixed;
+  -webkit-animation: image 5s linear 2s infinite alternate; 
+  animation: image 5s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes image {
+  0%   {right:20px; bottom:-200px;}
+  25%  {right:20px; bottom:-200px;}
+  50%  {right:20px; bottom:-20px;}
+  75%  {right:20px; bottom:-20px;}
+  100% {right:20px; bottom:-200px;}
+}
+
+@keyframes image {
+  0%   {right:20px; bottom:-200px;}
+  25%  {right:20px; bottom:-200px;}
+  50%  {right:20px; bottom:-20px;}
+  75%  {right:20px; bottom:-20px;}
+  100% {right:20px; bottom:-200px;}
+}

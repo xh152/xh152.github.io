@@ -1,0 +1,132 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: white;
+}
+div {
+  margin-top: 5%;
+}
+.TVleft1 {
+  position:absolute;
+  top: 8px;
+  left: 16px;
+  margin-left:3%;
+  width:200px;
+  height:200px;
+  cursor: url("https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Feyepng.png?v=1604580349219"), auto;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVleft1:hover{
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftvred.png?v=1604537094891');
+  background-size: 200px 200px;
+  position:absolute;
+}
+.Detective {
+  position: absolute;
+  top: 135px;
+  left:320px;
+  margin-left:3%;
+}
+.Detective: hover {
+  image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Fconanintro.png?v=1605177273532');
+}
+.Sazaesan {
+  position: absolute;
+  top: 135px;
+  right:320px;
+  margin-right:3%;
+}
+.Sailormoon {
+  position: absolute;
+  top: 410px;
+  left:320px;
+  margin-left:3%;
+}
+.Yamato {
+  position: absolute;
+  top: 390px;
+  right:320px;
+  margin-right:3%; 
+}
+.Onepiece {
+  position: absolute;
+  bottom: 0px;
+  left: 320px;
+  margin-left:3%;
+}
+.Pokemon {
+  position: absolute;
+  bottom: 3px;
+  right: 320px;
+  margin-right:3%; 
+}
+.TVleft2 {
+  position: absolute;
+  top: 288px;
+  left: 16px;
+  margin-left:3%;
+  width:200px;
+  height:200px;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVleft2:hover {
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftvpink.png?v=1604578118631');
+  background-size: 200px 200px;
+  position:absolute;
+}
+.TVleft3 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-left:3%;
+  width:200px;
+  height:200px;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVleft3:hover {
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftvblue1.png?v=1604578352201');
+  background-size: 200px 200px;
+  position:absolute;
+}
+.TVright1 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  margin-right:3%;
+  width:200px;
+  height:200px;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVright1:hover {
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftvgreen.png?v=1604578472574');
+  background-size: 200px 200px;
+  position:absolute;
+}
+.TVright2 {
+  position: absolute;
+  top: 288px;
+  right: 16px;
+  margin-right:3%;
+  width:200px;
+  height:200px;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVright2:hover {
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv2.png?v=1604534569047');
+  background-size: 200px 200px;
+  position:absolute;
+}
+.TVright3 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  margin-right:3%;
+  width:200px;
+  height:200px;
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftv1.png?v=1604534565764') no-repeat;
+}
+.TVright3:hover {
+  background-image: url('https://cdn.glitch.com/10f0edb6-04b0-48d4-be1c-1c69aada9d01%2Ftvyellow.png?v=1604578477930');
+  background-size: 200px 200px;
+  position:absolute;
+}
